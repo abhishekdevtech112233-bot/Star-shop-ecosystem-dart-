@@ -24,7 +24,7 @@ jobs:
           channel: 'stable'
 
       - name: Create Android Structure
-        run: flutter create . --platforms=android --org com.starshops.app
+        run: flutter create . --platforms=android --project-name=star_shop_app
 
       - name: Install Dependencies
         run: flutter pub get
